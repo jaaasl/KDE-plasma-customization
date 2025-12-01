@@ -13,6 +13,19 @@ It includes configuration snippets and assets(dotfiles) for:
 
 ---
 
+## Screenshots
+### Desktop overview
+
+![Desktop screenshot](screenshots/screenshot_desktop.png)
+
+### Fastfetch in terminal
+
+![Fastfetch screenshot](screenshots/terminal.png)
+
+### Terminal
+
+![Terminal](screenshots/Screenshot_terminal_custom.png)
+
 ## Repository Structure
 
 ```text
