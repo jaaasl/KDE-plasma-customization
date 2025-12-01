@@ -22,17 +22,17 @@ KDE-plasma-customization/
 └─ wallpaper/   # Wallpaper(s) used in screenshots / desktop
 ```
 
-# Requirements
+## Requirements
 
 This setup assumes:
 
-  -Debian Linux (or a Debian-based distro)
-  -KDE Plasma desktop environment
-  -Wayland compositor (if you are using Waybar in a Wayland session)
-  -Packages:
-      -fastfetch
-      -waybar
-      -KDE Plasma (and usual utilities)
+  - Debian Linux (or a Debian-based distro)
+  - KDE Plasma desktop environment
+  - Wayland compositor (if you are using Waybar in a Wayland session)
+  - Packages:
+      - fastfetch
+      - waybar
+      - KDE Plasma (and usual utilities)
 
 Install fastfetch and waybar (Debian / apt-based):
 
@@ -41,7 +41,7 @@ sudo apt update
 sudo apt install fastfetch waybar
 ```
 
-# How to Use This Repo
+## How to Use This Repo
 
 1. Clone the repository
 
@@ -50,7 +50,7 @@ git clone https://github.com/jaaasl/KDE-plasma-customization.git
 cd KDE-plasma-customization
 ```
 
-# fastfetch
+## fastfetch
 
 Configuration for fastfetch, a fast system information tool similar to neofetch.
 
@@ -69,7 +69,7 @@ cp fastfetch/* ~/.config/fastfetch/
 
 Adjust paths in the config if necessary (icons, logos, etc.).
 
-# waybar
+## waybar
 
 Configuration for Waybar, a highly customizable bar for Wayland compositors such as Hyprland, Sway, etc.
 
@@ -91,30 +91,28 @@ waybar &
 or log out and log back in to your Wayland session so the compositor autostart picks it up.
 
 
-# wallpaper
+## wallpaper
 
 Contains the wallpaper used with this setup.
 
 To use:
 
  1. Copy the image(s) to a convenient location (e.g. ~/Pictures/wallpapers).
-
  2. In KDE Plasma:
-      -Right-click on desktop → Configure Desktop and Wallpaper…
-      -Select Image and browse to the wallpaper from this repo.
+      - Right-click on desktop → Configure Desktop and Wallpaper…
+      - Select Image and browse to the wallpaper from this repo.
 
 
 # Customization Tips
 
-  -Treat these configs as a starting point:
-        -Edit colors, fonts, spacing in style.css for Waybar.
-        -Update modules and commands in config for Waybar.
-        -Adjust fastfetch logo, colors, and displayed fields in its config.
-  -Keep a backup of your own configs before overwriting them.
-  -Use Git to version-control your own tweaks.
+  - Treat these configs as a starting point:
+        - Edit colors, fonts, spacing in style.css for Waybar.
+        - Update modules and commands in config for Waybar.
+        - Adjust fastfetch logo, colors, and displayed fields in its config.
+  - Keep a backup of your own configs before overwriting them.
+  - Use Git to version-control your own tweaks.
 
 # License
 
 This is a personal configuration repo.
-
 If you publish a fork or heavily based setup, a small credit link back to this repo is appreciated.
