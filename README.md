@@ -1,6 +1,6 @@
 # KDE Plasma Customization (Debian)
 
-# 🌃 CYBERPUNK themed ricing
+## 🌃 CYBERPUNK themed ricing
 
 This repository contains my personal KDE Plasma desktop setup on Debian Linux.  
 It includes configuration snippets and assets(dotfiles) for:
@@ -26,13 +26,13 @@ KDE-plasma-customization/
 
 This setup assumes:
 
-  - Debian Linux (or a Debian-based distro)
-  - KDE Plasma desktop environment
-  - Wayland compositor (if you are using Waybar in a Wayland session)
-  - Packages:
-      - fastfetch
-      - waybar
-      - KDE Plasma (and usual utilities)
+ - Debian Linux (or a Debian-based distro)
+ - KDE Plasma desktop environment
+ - Wayland compositor (if you are using Waybar in a Wayland session)
+ - Packages:
+    - fastfetch
+    - waybar
+    - KDE Plasma (and usual utilities)
 
 Install fastfetch and waybar (Debian / apt-based):
 
@@ -99,18 +99,18 @@ To use:
 
  1. Copy the image(s) to a convenient location (e.g. ~/Pictures/wallpapers).
  2. In KDE Plasma:
-      - Right-click on desktop → Configure Desktop and Wallpaper…
-      - Select Image and browse to the wallpaper from this repo.
+     - Right-click on desktop → Configure Desktop and Wallpaper…
+     - Select Image and browse to the wallpaper from this repo.
 
 
 # Customization Tips
 
-  - Treat these configs as a starting point:
-        - Edit colors, fonts, spacing in style.css for Waybar.
-        - Update modules and commands in config for Waybar.
-        - Adjust fastfetch logo, colors, and displayed fields in its config.
-  - Keep a backup of your own configs before overwriting them.
-  - Use Git to version-control your own tweaks.
+ - Treat these configs as a starting point:
+    - Edit colors, fonts, spacing in style.css for Waybar.
+    - Update modules and commands in config for Waybar.
+    - Adjust fastfetch logo, colors, and displayed fields in its config.
+ - Keep a backup of your own configs before overwriting them.
+ - Use Git to version-control your own tweaks.
 
 # License
 
