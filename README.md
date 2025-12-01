@@ -56,14 +56,14 @@ sudo apt install fastfetch waybar
 
 ## How to Use This Repo
 
-1. Clone the repository
+### 1. Clone the repository
 
 ``` bash
 git clone https://github.com/jaaasl/KDE-plasma-customization.git
 cd KDE-plasma-customization
 ```
 
-## fastfetch
+### 2. fastfetch
 
 Configuration for fastfetch, a fast system information tool similar to neofetch.
 
@@ -82,7 +82,7 @@ cp fastfetch/* ~/.config/fastfetch/
 
 Adjust paths in the config if necessary (icons, logos, etc.).
 
-## waybar
+### 3. waybar
 
 Configuration for Waybar, a highly customizable bar for Wayland compositors such as Hyprland, Sway, etc.
 
@@ -104,7 +104,7 @@ waybar &
 or log out and log back in to your Wayland session so the compositor autostart picks it up.
 
 
-## wallpaper
+### 4. wallpaper
 
 Contains the wallpaper used with this setup.
 
