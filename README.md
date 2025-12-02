@@ -16,7 +16,7 @@ It includes configuration snippets and assets(dotfiles) for:
 ## Screenshots
 ### Desktop overview
 
-![Desktop screenshot](screenshots/screenshot_desktop.png)
+![Desktop screenshot](screenshots/desktop.png)
 
 ### Fastfetch in terminal
 
